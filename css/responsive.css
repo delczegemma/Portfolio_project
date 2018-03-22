@@ -1,0 +1,22 @@
+@media screen and (min-width:1200px) {
+  body {
+    width: 75%;
+  }
+}
+
+
+@media screen and (min-width:950px) and (max-width: 1199px) {
+  body {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:800px) {
+	.works_conatiner {
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+  .works {
+    width: 100%;
+  }
+}

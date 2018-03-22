@@ -1,0 +1,163 @@
+* {
+	box-sizing: border-box;
+	margin: 0em;
+	padding: 0em;
+}
+
+body {
+	font-family:'Lato', sans-serif;
+	font-size: 1em;
+	color: #424242;
+  	height: auto;
+  	margin: auto;
+  	width: 75%;
+}
+
+h1, h2, h4 {
+	font-weight: 300;
+  	text-transform: uppercase;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+/* HEADER*/
+header {
+	border-bottom: 2px solid #2d3c49;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 2%;
+	padding: 3% 1% 3% 3%;
+}
+
+.header_logo{
+	display: flex;
+}
+
+.logo{
+	height: 30%;
+	width: 30%;
+}
+
+.title {
+	color:#585858;
+	text-align: right;
+	width: 75%;
+}
+
+h1 {
+	font-size: 3.125em;
+}
+
+h2 {
+	font-size: 1.5625em;
+}
+
+/*Main*/
+
+article {
+	display: flex;
+ 	flex-wrap: wrap;
+}
+
+.welcomepic_container {
+	align-items: flex-start;
+	display: flex;
+	justify-content:center; 
+	position: sticky;
+}
+
+.welcomepic {
+	overflow: hidden;
+	width: 100%;
+}
+
+h3 {
+	color: #7d97ad;
+	font-size: 2.50em;
+	font-weight: 300;
+	padding: 5% 0 2% 1%;
+}
+
+.works_container {
+	align-items: flex-start;
+	display: flex;
+	justify-content:space-around;
+  	margin-bottom: 2%;
+}
+
+.works {
+	height: 100%;
+	width: 26%;
+}
+
+.works a {
+	position: relative;
+}
+
+.works img {
+	border: 5px outset #FAE7AC;
+	width: 100%;
+}
+
+.works img:hover {
+	border-style: inset;
+}
+.overlay {
+	background-color:#02b3e4;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	top:0;
+	transition:.5s ease;
+	width:100%;
+}
+
+.works a:hover .overlay {
+	opacity: 0.7;
+}
+
+.works a:visited .overlay{
+	opacity: 0.7;
+}
+
+figcaption {
+	color:#2d3c49;
+	font-size: 1.25em;
+	padding: 0.5em 0 0.5em 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/*FOOTER*/
+footer {
+	background-color: #2d3c49;
+	color: white;
+	padding: 2em 1em 2em 2em;
+	text-align: center;
+}
+
+.contact li {
+	display:inline-block;
+	padding-right: 1em;
+}
+
+.contact a {
+	color: white;
+}
+
+.contact a:hover {
+	color: #7d97ad;
+}
+
+.footer_text {
+	color: #7d97ad;
+	float: left;
+}
+
+.signature {
+	float: right;
+}
