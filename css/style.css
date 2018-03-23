@@ -35,11 +35,12 @@ header {
 
 .header_logo{
 	display: flex;
+	width: 25%;
 }
 
 .logo{
-	height: 30%;
-	width: 30%;
+	height: 73px;
+	width: 73px;
 }
 
 .title {
