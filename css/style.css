@@ -44,7 +44,7 @@ header {
 }
 
 .title {
-	color:#585858;
+	color: #585858;
 	text-align: right;
 	width: 75%;
 }
@@ -67,7 +67,7 @@ article {
 .welcomepic-container {
 	align-items: flex-start;
 	display: flex;
-	justify-content:center; 
+	justify-content: center; 
 	position: sticky;
 }
 
@@ -86,7 +86,7 @@ h3 {
 .works-container {
 	align-items: flex-start;
 	display: flex;
-	justify-content:space-around;
+	justify-content: space-around;
   	margin-bottom: 2%;
 }
 
@@ -100,8 +100,8 @@ h3 {
 }
 
 .works img {
-	border: 5px outset #FAE7AC;
-	width: 100%;
+	border: 5px outset #fae7ac;
+	width: 100%; 
 }
 
 .works img:hover {
@@ -112,9 +112,9 @@ h3 {
 	height: 100%;
 	opacity: 0;
 	position: absolute;
-	top:0;
-	transition:.5s ease;
-	width:100%;
+	top: 0;
+	transition: 0.5s ease;
+	width: 100%;
 }
 
 .works a:hover .overlay {
